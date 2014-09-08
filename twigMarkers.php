@@ -41,6 +41,8 @@ abstract class TwigMarkers extends \Twig_Extension
         $this->context = $context;
         $search = array();
         $replace = array();
+        $markers[1] = array_unique($markers[1]);
+        $markers[0] = array_unique($markers[0]);
         foreach($markers[1] as $m => $marker )
         {
             $methodFilter = 'onMarker'.ucfirst($marker);
