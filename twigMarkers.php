@@ -68,7 +68,7 @@ abstract class TwigMarkers extends \Twig_Extension
      * @param  $findContext Require Context (fully qualified class name)
      * @return Entity | false
      */
-    abstract private function findContext($findContext);
+    abstract protected function findContext($findContext);
     
     
 }
