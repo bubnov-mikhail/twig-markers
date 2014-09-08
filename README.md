@@ -61,7 +61,7 @@ This is widget text for project %link%. Click it!
 
 #PHP:
 ```php
-private function onMarkerLink()
+protected function onMarkerLink()
 {
 	if($context = $this->findContext('App\ProjectBundle\Entity\Project'))
 	{
@@ -71,7 +71,7 @@ private function onMarkerLink()
 	return false;
 }
 
-private function findContext($findContext)
+protected function findContext($findContext)
 {
         $contextClass = get_class($this->context);
         if($contextClass === $findContext)
