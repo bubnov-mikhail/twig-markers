@@ -18,6 +18,6 @@
     "license": "MIT",
     "minimum-stability" : "dev",
     "autoload": {
-        "classmap": ["twig_markers.php"]
+        "files": ["twig_markers.php"]
     }
 }
