@@ -1,8 +1,8 @@
 {
-    "name": "bubnovKelnik/twig-markers",
+    "name": "bubnov/twig-markers",
     "description": "php Twig extention filter allows you replace placeholders in text by content context",
     "keywords": ["twig", "twig extension", "symfony", "placeholder"],
-    "homepage": "https://github.com/bubnovKelnik/twig-markers",
+    "homepage": "https://github.com/bubnov-mikhail/twig-markers",
     "authors": [
         {
             "name": "Mihail Bubnov",
