@@ -21,7 +21,7 @@ is a requested one or may try find it from provided (see example)
 Add require to your composer.json:
 ```
 ```json
-"bubnovKelnik/twig-markers": "master"
+"bubnov/twig-markers": "master"
 ```
 
 ```
